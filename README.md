@@ -7,10 +7,10 @@ This project implements an **8-bit SPI Master-Slave communication interface** in
 - 8-bit serial data transfer
 - Separate **Master** and **Slave** modules
 - Full-duplex communication using:
-  - **MOSI**
-  - **MISO**
-  - **SCLK**
-  - **CS**
+  - **MOSI** (Master Out Slave In)
+  - **MISO** (Master In Slave Out)
+  - **SCLK** (Slave Clock)
+  - **CS**   (Chip Select)
 - Functional verification using a **testbench**
 - Simulated and verified in **Xilinx Vivado**
 
